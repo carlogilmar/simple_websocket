@@ -25,7 +25,7 @@ defmodule MyWebsocketApp.MixProject do
       {:cowboy, "~> 2.4"},
       {:plug, "~> 1.7"},
       {:plug_cowboy, "~> 2.0"},
-      {:jason, "~> 1.1"}
+			{:poison, "~> 3.1"}
     ]
   end
 end
