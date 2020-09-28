@@ -33,7 +33,7 @@ defmodule MyWebsocketApp.Application do
     [
       {:_,
         [
-          {"/ws/[...]", MyWebsocketApp.SocketHandler, []},
+          {"/ws/socketcito", MyWebsocketApp.SocketHandler, []},
           {:_, Plug.Cowboy.Handler, {MyWebsocketApp.Router, []}}
         ]
       }
